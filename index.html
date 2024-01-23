@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛР1</title>
+  </head>
+  <body>
+    <p>
+      Загальна кількість перестановок з <i>n</i><br />елементів дорівнює
+      <b
+        >добутку всіх<br />
+        цілих чисел</b
+      >
+      від <i>1</i> до
+      <i>n</i
+      >:<br />P<sub>n</sub>=1&bullet;2&bullet;3&bullet;...&bullet;(n-2)&bullet;(n-1)&bullet;n.
+    </p>
+    <br />
+    <dl>
+      <dt>IntT</dt>
+      <dd>Internet-технології</dd>
+      <dt>КСх</dt>
+      <dd>Комп'ютерна схемотехніка</dd>
+      <dt>МодС</dt>
+      <dd>Моделювання систем</dd>
+      <dt>СПЗ</dt>
+      <dd>Системне програмне забезпечення</dd>
+      <dt>ФВ</dt>
+      <dd>Фізичне виховання та спорт</dd>
+      <dt>ММКС</dt>
+      <dd>Мікроконтролери та мікроконтролерні системи</dd>
+      <dt>АК</dt>
+      <dd>Архітектура комп'ютерів</dd>
+      <dt>ІССп</dt>
+      <dd>Імідж сучасного спеціаліста</dd>
+    </dl>
+    <br /><br />
+    <table border="4">
+      <tr align="center">
+        <td colspan="2" rowspan="2"></td>
+        <td colspan="6">Група</td>
+      </tr>
+      <tr align="center">
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+        <td>11</td>
+      </tr>
+      <tr align="center">
+        <td rowspan="3">Період</td>
+        <td>4</td>
+        <td>24<br />Cr</td>
+        <td>25<br />Mn</td>
+        <td>26<br />Fe</td>
+        <td>27<br />Co</td>
+        <td>28<br />Ni</td>
+        <td>29<br />Cu</td>
+      </tr>
+      <tr align="center">
+        <td>5</td>
+        <td>42<br />Mo</td>
+        <td>43<br />Tc</td>
+        <td>44<br />Ru</td>
+        <td>45<br />Rh</td>
+        <td>46<br />Pd</td>
+        <td>47<br />Ag</td>
+      </tr>
+      <tr align="center">
+        <td>6</td>
+        <td>74<br />W</td>
+        <td>75<br />Re</td>
+        <td>76<br />Os</td>
+        <td>77<br />Ir</td>
+        <td>78<br />Pt</td>
+        <td>79<br />Au</td>
+      </tr>
+    </table>
+    <br /><br />
+    <form>
+      <label for="CPU">Процесор</label><br />
+      <label for="CPUManufacturer">Виробник</label>
+      <select name="CPUManufacturer" id="CPUManufacturer">
+        <option value="AMD">AMD</option>
+        <option value="Intel">Intel</option></select
+      ><br />
+      <label for="CPUCores">Ядра</label>
+      <input type="text" id="CPUCores" name="CPUCores" /><br />
+      <label for="CPUthreads">Потоки</label>
+      <input type="text" id="CPUThreads" name="CPUThreads" /><br /><br />
+      <label for="title">Відеокарта</label><br />
+      <label for="GPUManufacturer">Виробник</label>
+      <select name="GPUManufacturer" id="GPUManufacturer">
+        <option value="AMD">AMD</option>
+        <option value="Nvidia">Nvidia</option>
+        <option value="Intel">Intel</option></select
+      ><br />
+      <label for="GPUMemory">Об'єм відеопам'ять</label>
+      <input type="text" id="GPUMemory" name="GPUMemory" /><br /><br />
+      <label for="title">Оперативна пам'ять</label><br />
+      <label for="RAM">Об'єм пам'яті</label>
+      <input type="text" id="RAM" name="RAM" /><br /><br />
+      <label for="title">Постійна пам'ять</label><br />
+      <label for="diskType">Тип накопичувача</label>
+      <select name="diskType" id="diskType">
+        <option value="HardDrive">Жорсткий диск</option>
+        <option value="SSD">SSD</option></select
+      ><br />
+      <label for="ROM">Об'єм пам'яті</label>
+      <input type="text" id="ROM" name="ROM" /><br /><br />
+      <input type="submit" value="ОК" />
+    </form>
+    <br />
+    <div><img src="map.png" alt="map" usemap="#image-map" /></div>
+    <map name="image-map">
+      <area
+        target="_blank"
+        alt="dec"
+        title="dec"
+        href="https://dec.nure.ua/"
+        coords="110,105,85"
+        shape="circle"
+      />
+      <area
+        target="_self"
+        alt="schedule"
+        title="schedule"
+        href="https://cist.nure.ua/ias/app/tt/f?p=778:2:1545859407241644::NO"
+        coords="228,20,384,176"
+        shape="rect"
+      />
+      <area
+        target="_blank"
+        alt="nure"
+        title="nure"
+        href="https://nure.ua/"
+        coords="498,104,81"
+        shape="circle"
+      />
+    </map>
+  </body>
+</html>
